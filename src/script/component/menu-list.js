@@ -26,7 +26,7 @@ class MenuList extends HTMLElement {
         <style>
              .placeholder {
                    font-weight: lighter;
-                   color: rgba(0,0,0,0.5);
+                   color: white(0,0,0,0.5);
                    -webkit-user-select: none;
                    -moz-user-select: none;
                    -ms-user-select: none;

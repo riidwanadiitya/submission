@@ -22,14 +22,15 @@ class AppBar extends HTMLElement {
                 width: 100%;
                 background-color: maroon;
                 background-image: url("/src/script/view/gambar/1.png");
-                background-size: 60px;
+                background-size: 58px;
                 background-repeat: no-repeat;
-                background-position-x: 180px;
+                background-position-x: 530px;
                 color: white;
                 box-shadow: 0 4px 8px 0 white;
             }
             h2 {
                 padding: 16px;
+                text-align: center;
             }
         </style>
         <h2>Let's Cooking</h2>`;

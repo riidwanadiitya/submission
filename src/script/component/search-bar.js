@@ -28,7 +28,6 @@
            padding: 16px;
            border-radius: 5px;
            display: flex;
-           position: sticky;
            top: 10px;
            background-color: white;
        }
@@ -62,6 +61,7 @@
            margin-left: auto;
            padding: 16px;
            background-color: maroon;
+           outline-color: maroon;
            color: white;
            border: 0;
            text-transform: uppercase;

@@ -39,9 +39,16 @@ class MenuItem extends HTMLElement {
                    padding: 24px;
                }
               
-               .menu-info > h2 {
+               .menu-info > h1 {
                    font-weight: lighter;
+                   text-align: center;
                }
+
+               .menu-info > h4 {
+                font-weight: light;
+                text-align: center;
+                color: white;
+                }
               
                .menu-info > p {
                    margin-top: 10px;
@@ -55,8 +62,8 @@ class MenuItem extends HTMLElement {
            <a href="${this._menu.strMealThumb}" target="_blank"><img class="gambar-menu" src="${this._menu.strMealThumb}" alt="Gambar"></a>
            <div class="menu-info">
                <h1>${this._menu.strMeal} from ${this._menu.strArea} </h1>
-               <h4><a href="${this._menu.strYoutube}" target="_blank">Click for video</a></h4>
-               <p>${this._menu.strInstructions}</p>
+               <h4>Click for <a href="${this._menu.strYoutube}" target="_blank">video</a></h4>
+               <p>${this._menu.strInstructions}</p></div>
            </div>`;
     }
 }
