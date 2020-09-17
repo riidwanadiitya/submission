@@ -37,13 +37,14 @@
            width: 75%;
            padding: 16px;
            border: 0;
-           border-bottom: 1px solid cornflowerblue;
+           border-bottom: 1px solid maroon;
+           color: maroon;
            font-weight: bold;
        }
       
        .search-container > input:focus {
            outline: 0;
-           border-bottom: 2px solid cornflowerblue;
+           border-bottom: 2px solid maroon;
        }
       
        .search-container > input:focus::placeholder {
@@ -51,7 +52,7 @@
        }
       
        .search-container >  input::placeholder {
-           color: cornflowerblue;
+           color: maroon;
            font-weight: normal;
        }
       
@@ -60,7 +61,7 @@
            cursor: pointer;
            margin-left: auto;
            padding: 16px;
-           background-color: cornflowerblue;
+           background-color: maroon;
            color: white;
            border: 0;
            text-transform: uppercase;

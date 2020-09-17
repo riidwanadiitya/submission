@@ -21,14 +21,16 @@ class MenuItem extends HTMLElement {
                :host {
                    display: block;
                    margin-bottom: 18px;
-                   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                   box-shadow: 0 4px 8px 0 white;
                    border-radius: 10px;
                    overflow: hidden;
+                   color: white;
+
                }
               
                .gambar-menu {
                    width: 100%;
-                   max-height: 300px;
+                   max-height: 200px;
                    object-fit: cover;
                    object-position: center;
                }
@@ -47,7 +49,7 @@ class MenuItem extends HTMLElement {
                    text-overflow: ellipsis;
                    display: -webkit-box;
                    -webkit-box-orient: vertical;
-                   -webkit-line-clamp: 10; /* number of lines to show */
+                   -webkit-line-clamp: 20; /* number of lines to show */
                }
            </style>
            <a href="${this._menu.strMealThumb}" target="_blank"><img class="gambar-menu" src="${this._menu.strMealThumb}" alt="Gambar"></a>
